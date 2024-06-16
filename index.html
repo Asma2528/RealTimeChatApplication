@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Chat - Real Time Socket IO Chat Application</title>
+    
+    <!-- To join the server and the client -->
+   <!--This is the server script >> --> 
+   <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    
+   <!--This is the client script >> -->     
+   <script defer src="js/client.js"></script>
+   <!-- defer is used to specify that the script should run after the dom is loaded.
+    The defer attribute is a boolean attribute. If the defer attribute is set, it specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing. Note: The defer attribute is only for external scripts (should only be used if the src attribute is present).
+-->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="chat.png" alt="Lets Chat logo">
+        <h1>Welcome to Let's Chat!</h1>
+    </nav>
+    <div class="container">
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="textmsg" id="textmsg">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
