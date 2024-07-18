@@ -1,0 +1,95 @@
+    @import url('https://fonts.googleapis.com/css?family=Karla');   
+
+    *
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    h1
+    {
+        text-align: center;
+        margin:10px 0px;
+        color:rgb(2, 2, 66);
+    }
+
+    body
+    {
+        background-image: linear-gradient(rgb(255,255,255),rgb(148, 214, 254),rgb(0, 155, 251));
+        font-family: Karla;
+        /* background-image: url('../bg.jpg') no-repeat center center cover; */
+    }
+
+    .logo
+    {
+        width:70px;
+        height:70px;
+        display:block;
+        margin:5px auto;
+
+    }
+
+    .container
+    {
+        margin:auto;
+        width:70%;
+        height:62vh;
+        border:4px solid navy;
+        border-radius: 5px;
+        padding:10px;
+        overflow-y:auto;
+    
+    }
+
+    .message{
+        border:2px solid navy;
+        padding:5px;
+        margin:10px 8px;
+        border-radius: 5px;
+        background-color: rgb(220, 225, 225);
+    }
+
+    .right
+    {
+        float:right;
+        clear:both;
+    }
+
+    .left
+    {
+        float:left;
+        clear:both;
+    }
+
+    #send-container
+    {
+        display:flex;
+        margin: 10px auto;
+        align-items: center;
+        justify-content: center;
+        width:73%;
+        height:10.5vh;
+    }
+
+    input{
+        width:85%;
+        font-family: Karla;
+        padding:3px 8px;
+        outline:none;
+        margin:5px 0px;
+        border-radius:5px;
+        font-size:1.1rem;
+        border:2px solid navy;
+    }
+
+    .btn
+    {
+        font-family: Karla;
+        padding:3px 12px;
+        cursor:pointer;
+        border-radius:5px;
+        font-size:1.1rem;
+        background-color: #058aff;
+        border:2px solid navy;
+        margin:0px 10px;
+    }
